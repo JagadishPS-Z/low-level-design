@@ -6,7 +6,12 @@ public class File implements FileSystem {
     }
 
     @Override
-    public void ls() {
+    public void ls(int count) {
+        int k=count;
+        while(k!=0){
+            System.out.print("-");
+            k--;
+        }
         System.out.println("File Name: "+this.name);
     }
 }

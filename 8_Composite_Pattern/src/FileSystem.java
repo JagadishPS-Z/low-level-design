@@ -1,3 +1,3 @@
 public interface FileSystem {
-    public void ls();
+    public void ls(int count);
 }

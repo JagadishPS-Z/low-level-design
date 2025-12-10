@@ -13,6 +13,6 @@ public class Main {
         comedyMovieDirectory.add(golmaal);
         movieDirectory.add(comedyMovieDirectory);
 
-        movieDirectory.ls();
+        movieDirectory.ls(1);
     }
 }
